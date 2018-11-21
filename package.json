@@ -1,0 +1,19 @@
+{
+  "name": "shortcutify",
+  "version": "1.0.0",
+  "description": "Make an iOS 12 shortcut using JavaScript only.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haykam821/Shortcutify.git"
+  },
+  "author": "haykam821",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haykam821/Shortcutify/issues"
+  },
+  "homepage": "https://github.com/haykam821/Shortcutify#readme"
+}
