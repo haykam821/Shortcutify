@@ -4,6 +4,7 @@
   "description": "Make an iOS 12 shortcut using JavaScript only.",
   "main": "index.js",
   "scripts": {
+	"lint": "eslint \"./**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
