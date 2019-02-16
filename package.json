@@ -2,7 +2,7 @@
 	"name": "shortcutify",
 	"version": "1.0.0",
 	"description": "Make an iOS 12 shortcut using JavaScript only.",
-	"main": "index.js",
+	"main": "./src/index.js",
 	"scripts": {
 		"lint": "eslint \"./**/*.js\"",
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -25,5 +25,8 @@
 		"eslint-plugin-json": "^1.2.1",
 		"eslint-plugin-markdown": "^1.0.0-rc.1",
 		"eslint-plugin-unicorn": "^6.0.1"
+	},
+	"dependencies": {
+		"bplist-creator": "0.0.7"
 	}
 }
