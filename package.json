@@ -27,6 +27,8 @@
 		"eslint-plugin-unicorn": "^6.0.1"
 	},
 	"dependencies": {
-		"bplist-creator": "0.0.7"
+		"bplist-creator": "0.0.7",
+		"pair-into-object": "^2.0.0",
+		"require-all": "^3.0.0"
 	}
 }
