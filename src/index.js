@@ -1,11 +1,12 @@
 const encode = require("bplist-creator");
 
 class Shortcut {
-	constructor(color, icon) {
+	constructor(color = 0, icon = 0) {
 		this.actions = [];
 
-		this.color = color;
-		this.icon = icon;
+		this.setColor(color);
+		this.setIcon(icon);
+	}
 	}
 
 	setColor(color) {
