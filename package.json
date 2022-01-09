@@ -30,5 +30,8 @@
 		"bplist-creator": "0.0.7",
 		"pair-into-object": "^2.0.0",
 		"require-all": "^3.0.0"
+	},
+	"eslintConfig": {
+		"extends": "eslint-config-haykam"
 	}
 }
