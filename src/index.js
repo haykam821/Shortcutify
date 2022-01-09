@@ -15,7 +15,7 @@ class Shortcut {
 		this.setIcon(icon);
 	}
 
-	add(action, saveAs) {
+	add(action) {
 		this.actions.push(action);
 	}
 
@@ -27,14 +27,14 @@ class Shortcut {
 		this.icon = icon;
 		return this;
 	}
-	
+
 	build() {
 		return encode({
-			WFWorkflowIcon: {
-				WFWorkflowIconStartColor: this.color,
-				WFWorkflowIconGlyphNumber: this.icon,
-			},
 			WFWorkflowActions: this.actions,
+			WFWorkflowIcon: {
+				WFWorkflowIconGlyphNumber: this.icon,
+				WFWorkflowIconStartColor: this.color,
+			},
 		});
 	}
 }
